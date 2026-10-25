@@ -34,7 +34,7 @@ void printAllOdds(int arr[], int n, int index, vector<int> &ans) {
     //1 case main
     if((arr[index])&1 ) {
         ans.push_back(arr[index]);
-        //cout << arr[index] << ' ';
+        //cout << arr[index] << ' '
     }
     //baaki recursion karega
     printAllOdds(arr,n,index+1,ans);
@@ -92,7 +92,7 @@ void printArray(int arr[], int size, int index) {
     //base case
     if(index == size) {
         //array se bahar aagye ho
-        return ;
+        return;
     }
     //recursive relation
     //1 case main solve karunga

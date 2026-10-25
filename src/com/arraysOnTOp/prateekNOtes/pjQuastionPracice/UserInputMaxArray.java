@@ -2,7 +2,7 @@ package com.arraysOnTOp.prateekNOtes.pjQuastionPracice;
 
 import java.util.Scanner;
 
-public class MaxArray {
+public class UserInputMaxArray {
 
     int  maxElement(int[] arr){
         int max = Integer.MIN_VALUE;
@@ -16,7 +16,7 @@ public class MaxArray {
     }
 
     static void main(String[] args) {
-        MaxArray obj = new MaxArray();
+        UserInputMaxArray obj = new UserInputMaxArray();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
         int n = sc.nextInt();
